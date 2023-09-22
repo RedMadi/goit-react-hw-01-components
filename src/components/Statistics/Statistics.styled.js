@@ -1,10 +1,10 @@
 import { styled } from 'styled-components';
 
 export const Section = styled.section`
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
   width: 377px;
+  margin-bottom: 20px;
 `;
 export const Title = styled.h2`
   text-transform: uppercase;

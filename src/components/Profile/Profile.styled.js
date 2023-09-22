@@ -7,6 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   padding: 60px;
   background-color: lightblue;
+  margin-bottom: 20px;
 `;
 export const Description = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ export const Image = styled.img`
   height: 100px;
 `;
 export const Paragraph = styled.p`
-  color: ${props => (props.className === 'name' ? 'balck' : 'grey')};
+  color: ${props => (props.className === 'name' ? 'black' : 'grey')};
   font-weight: ${props => (props.className === 'name' ? 700 : 400)};
   margin: 0;
 `;
